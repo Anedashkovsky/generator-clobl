@@ -21,7 +21,7 @@ module.exports = yeoman.Base.extend({
     }, {
       type: 'input',
       name: 'blockDescriptionName',
-      message: 'Как назвать блок в комментах? (напр. Header)',
+      message: 'Как навать alias блока? (напр. Header)',
       //Defaults to the project's folder name if the input is skipped
       default: this.appname
     }, {

@@ -1,11 +1,14 @@
 {namespace <%= soyBlockProvide %>}
 
 /**
- * Template for Pablo <%= blockDescriptionName %> block
- *
- * @param? params {{
- *     ?data: {
- *     }
+ * @typedef {{
+ * }} <%= soyBlockProvide %>.Params.Data
+ */
+
+/**
+ * Template for <%= blockDescriptionName %> block
+ * @param params {{
+ *     data: <%= soyBlockProvide %>.Params.Data
  * }}
  * @constructor
  * @extends cl.iControl.Template
